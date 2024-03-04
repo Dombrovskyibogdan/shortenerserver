@@ -1,0 +1,25 @@
+{
+  "name": "shortenerserver",
+  "version": "1.0.0",
+  "description": "A simple URL shortener server implemented in Node.js using the Shorturly module.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dombrovskyibogdan/shortenerserver.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "server",
+    "shortenerserver"
+  ],
+  "author": "Dombrovskyibogdan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "shorturly": "^1.0.0"
+  }
+}
